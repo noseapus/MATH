@@ -19,15 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Book of Statistical Proofs
-email: StatProofBook@gmail.com
+title: Aqua's Maths Notes
+email: zcahrmo@ucl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  The Book of Statistical Proofs – a centralized, open and collaboratively
-  edited archive of statistical theorems for the computational sciences
+  test
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://statproofbook.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: StatProofBook
-github_username: StatProofBook
+twitter_username: n/a
+github_username: noseapus
 
 
 # Build settings
