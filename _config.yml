@@ -45,6 +45,7 @@ plugins:
 # 
 # exclude:
 #   - .sass-cache/
+includ:
    - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
