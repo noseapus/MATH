@@ -1,24 +1,13 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-	  equationNumbers: { autoNumber: "all" },
-	  tagSide: "right"
-	},
-	tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true
-    }
-  });
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    packages: ['base', 'newcommand', 'configMacros'],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
 </script>
-<!--<script type="text/javascript" charset="utf-8"
-  src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-
-<script
-  src="https://cdn.jsdelivr.net/gh/dpvc/MathJax@issue2272/unpacked/MathJax.js?config=TeX-AMS_CHTML">
-</script>-->
-
-<script
-  src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@legacy-v2-develop/unpacked/MathJax.js?config=TeX-AMS_CHTML">
-</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
