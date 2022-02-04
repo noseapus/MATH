@@ -13,8 +13,10 @@ MathJax = {
 
 <script>
 MathJax = {
+  loader: {load: ['[tex]/ams']},
   tex: {
-    packages: ['base', 'ams'],        // extensions to use
+    packages: ['base'],
+    packages: {'[+]': ['ams']}
     inlineMath: [              // start/end delimiter pairs for in-line math
       ['\\(', '\\)'],
       ['$', '$']
@@ -40,6 +42,11 @@ MathJax = {
     formatError:               // function called when TeX syntax errors occur
         (jax, err) => jax.formatError(err)
   }
+  svg: {
+    fontCache: 'global'
+  }
 };
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
